@@ -75,24 +75,6 @@ pokedex/
 └── README.md            # Ce fichier
 ```
 
-## 🎨 Personnalisation
-
-### Changer le titre de l'application
-Modifiez `client/src/const.ts` :
-```typescript
-export const APP_TITLE = "Votre Titre Personnalisé";
-```
-
-### Changer les couleurs du thème
-Modifiez `client/src/index.css` dans la section `:root`
-
-### Ajouter votre logo
-1. Placez votre logo dans `client/public/logo.png`
-2. Modifiez `client/src/const.ts` :
-```typescript
-export const APP_LOGO = "/logo.png";
-```
-
 ## 📝 Crédits et Attributions
 
 - **Données Pokémon** : [PokéAPI](https://pokeapi.co/)
