@@ -85,6 +85,7 @@ pokedex/
 ## 📄 Licence
 
 Ce projet est sous licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus de détails.
+MIT © 2025 [TheNicXo](https://github.com/TheNicXo)
 
 ## 🤝 Contribution
 
