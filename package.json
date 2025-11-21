@@ -1,8 +1,25 @@
 {
   "name": "pokedex",
   "version": "1.0.0",
+  "description": "Un Pokédex interactif créé par TheNicXo",
+  "author": "TheNicXo <nicolas.hamtane@gmail.com>",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://github.com/TheNicXo/pokedex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheNicXo/pokedex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheNicXo/pokedex/issues"
+  },
+  "keywords": [
+    "pokemon",
+    "react",
+    "typescript",
+    "tailwind",
+    "interactive"
+  ],
   "scripts": {
     "dev": "vite --host",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
