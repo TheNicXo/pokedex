@@ -58,9 +58,43 @@ export default function Home() {
       </main>
 
       {/* Pied de page */}
-      <footer className="bg-card border-t border-border py-6 mt-12">
-        <div className="container text-center text-sm text-muted-foreground">
-          <p>Données fournies par <a href="https://pokeapi.co" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">PokéAPI</a></p>
+      <footer className="bg-card border-t border-border py-8 mt-12">
+        <div className="container">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            {/* Colonne 1 : À propos */}
+            <div>
+              <h3 className="font-bold text-lg mb-3">À Propos</h3>
+              <p className="text-sm text-muted-foreground mb-4">
+                Pokédex interactif créé par TheNicXo. Découvrez les 20 premiers Pokémon avec un design moderne.
+              </p>
+            </div>
+            
+            {/* Colonne 2 : Liens */}
+            <div>
+              <h3 className="font-bold text-lg mb-3">Liens</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="https://github.com/TheNicXo" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub</a></li>
+                <li><a href="https://pokeapi.co" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">PokéAPI</a></li>
+              </ul>
+            </div>
+            
+            {/* Colonne 3 : Réseaux */}
+            <div>
+              <h3 className="font-bold text-lg mb-3">Suivez-moi</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="https://github.com/TheNicXo" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/nicolas-l-honorey-hamtane/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          {/* Ligne de séparation */}
+          <div className="border-t border-border pt-6">
+            <p className="text-center text-xs text-muted-foreground">
+              © 2025 TheNicXo. Tous droits réservés. | 
+              <a href="https://github.com/TheNicXo" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline ml-2">Voir le code source</a>
+            </p>
+          </div>
         </div>
       </footer>
     </div>
