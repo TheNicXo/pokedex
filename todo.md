@@ -11,4 +11,4 @@
 - [x] Créer une grille responsive pour afficher tous les Pokémon
 - [x] Ajouter des animations au survol des cartes
 - [x] Tester le site dans le navigateur
-- [ ] Créer un checkpoint final
+- [x] Créer un checkpoint final
